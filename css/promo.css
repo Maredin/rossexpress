@@ -16,7 +16,8 @@
     text-align: center;
 }
 
-.promo__title h1 {
+.promo__title h1,
+.promo__title-gold {
     color: #FFF;
     font-family: 'Oranienbaum', serif;
     font-size: 56px;
