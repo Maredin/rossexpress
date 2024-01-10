@@ -1,5 +1,6 @@
 @import './header.css';
-@import './footer.css';
+@import './promo.css';
+@import './about.css';
 
 * {
     box-sizing: border-box;
@@ -15,6 +16,10 @@ a {
 
 li {
     list-style-type: none;
+}
+
+body {
+    background-color: #1C1C1C;
 }
 
 /*  font-family: 'Oranienbaum', serif; */

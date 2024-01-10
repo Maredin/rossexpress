@@ -1,0 +1,119 @@
+.about {
+    background: linear-gradient(180deg, #010E0F 79.28%, rgba(1, 14, 15, 0.00) 100%);
+}
+
+.about__wrapper {
+    max-width: 1246px;
+    margin: 0 auto;
+    padding: 225px 15px 109px 15px;
+    position: relative;
+}
+
+.about__title {
+    text-align: center;
+}
+
+.about__title h2,
+.about__txt-golden {
+    color: #FFF;
+    font-family: 'Oranienbaum', serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    max-width: 916px;
+    margin: 0 auto;
+}
+
+.about__txt-golden {
+    color: #ECD180;
+}
+
+.about__desc {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.about__desc-silver,
+.about__desc-white {
+    border-radius: 41px;
+    background: #3D3D3D;
+    max-width: 556px;
+    height: 767px;
+    padding: 41px 44px 0 34px;
+}
+
+.about__desc-silver-title,
+.about__desc-white-title {
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    margin-left: 34px;
+}
+
+.about__desc-silver-items,
+.about__desc-white-items {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+}
+
+.about__desc-silver-item,
+.about__desc-white-item {
+    display: flex;
+    gap: 11px;
+}
+
+.about__desc-silver-item svg,
+.about__desc-white-item svg {
+    min-width: 24px;
+    min-height: 24px;
+    margin-top: 4px;
+}
+
+.about__desc-silver-item p,
+.about__desc-white-item p {
+    max-width: 426px;
+}
+
+.about__desc-white {
+    background: #FFF;
+}
+
+.about__desc-white-title,
+.about__desc-white-items {
+    color: #333;
+}
+
+.about__status {
+    height: 273px;
+    max-width: 1501px;
+    width: 100%;
+    border-radius: 41px;
+    background: #010E0F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -160px;
+}
+
+.about__status-border {
+    height: 254px;
+    width: 98%;
+    border-radius: 35px;
+    border: 2px solid #9F734C;
+}

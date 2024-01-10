@@ -1,0 +1,157 @@
+.promo {
+    background-image: url(../img/promo/bg.png);
+    background-size: cover;
+    background-position: right bottom;
+    padding: 89px 15px 0 15px;
+    height: 1105px;
+}
+
+.promo__wrapper {
+    max-width: 1502px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.promo__title {
+    text-align: center;
+}
+
+.promo__title h1 {
+    color: #FFF;
+    font-family: 'Oranienbaum', serif;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 2.8px;
+    text-transform: uppercase;
+}
+
+.promo__title-gold,
+.promo__title-desc-gold {
+    color: #F0D683;
+}
+
+.promo__title-desc-gold {
+    font-weight: 700;
+}
+
+.promo__title h3 {
+    color: #FFF;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    margin: 0 auto;
+    margin-top: 32px;
+    max-width: 515px;
+}
+
+.promo__title-btn {
+    width: 263px;
+    height: 68px;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #67310A -108.98%, #F0D683 129.77%);
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+    position: relative;
+}
+
+
+
+.promo__title-btn a {
+    display: flex;
+    width: 252px;
+    padding: 18px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    border: 1px solid #9F734C;
+    color: #000;
+    font-family: 'Oranienbaum', serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.promo__title-btn:hover {
+    background: linear-gradient(0deg, #F0D683 0%, #F0D683 100%);
+}
+
+.promo__title-btn-img {
+    transform: rotate(8.701deg);
+    flex-shrink: 0;
+    position: absolute;
+    right: -110px;
+    top: 0;
+}
+
+.promo__title-desc {
+    margin: 0 auto;
+    margin-top: 16px;
+    max-width: 257px;
+    color: #FFF;
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+}
+
+.promo__youtube {
+    border-radius: 15px;
+    background: linear-gradient(180deg, #062B2E 0%, #17868D 50.52%, #17868D 100%);
+    width: 260px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    justify-content: center;
+    position: absolute;
+    top: 340px;
+}
+
+.promo__youtube p {
+    width: 129px;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+}
+
+.promo__responsibility {
+    width: 273px;
+    height: 372px;
+    border-radius: 20px;
+    background: linear-gradient(348deg, rgba(240, 214, 131, 0.50) 6.97%, rgba(123, 63, 10, 0.50) 95.39%);
+    padding: 68px 42px 0 43px;
+    text-align: center;
+    position: absolute;
+    top: 340px;
+    right: 0;
+}
+
+.promo__responsibility p {
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.promo__responsibility-golden {
+    color: #F0D683;
+}
+
+.promo__sofa {
+    position: absolute;
+    bottom: -500px;
+    right: 15px;
+}
