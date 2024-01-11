@@ -1,0 +1,42 @@
+.tour {
+    max-width: 1504px;
+    margin: 0 auto;
+    margin-top: 76px;
+}
+
+.tour__title,
+.tour__title-golden {
+    color: #FFF;
+    font-family: 'Oranienbaum', serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.tour__title-golden {
+    color: #F0D683;
+}
+
+.tour__desc {
+    max-width: 668px;
+    margin: 0 auto;
+    margin-top: 29px;
+}
+
+.tour__desc,
+.tour__desc-golden {
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+}
+
+.tour__desc-golden {
+    color: #F0D683;
+}

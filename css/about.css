@@ -6,7 +6,7 @@
 .about__wrapper {
     max-width: 1246px;
     margin: 0 auto;
-    padding: 217px 15px 109px 15px;
+    padding: 217px 15px 269px 15px;
 
 }
 
@@ -149,4 +149,72 @@
     line-height: 130%;
     text-align: center;
     margin-top: -5px;
+}
+
+.about__sofa-left {
+    position: absolute;
+    bottom: 109px;
+    left: 50%;
+    transform: translateX(-100%);
+}
+
+.about__sofa-right {
+    position: absolute;
+    bottom: 109px;
+    right: 50%;
+    transform: translateX(calc(100% + 7px));
+}
+
+.about__help {
+    position: absolute;
+    bottom: 109px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    width: 413px;
+    height: 98px;
+    border-radius: 200px;
+    background: #FFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 33px;
+    padding-right: 29px;
+}
+
+.about__help-social {
+    color: #333;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+}
+
+.about__help-social {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.about__help-social>a {
+    width: 40px;
+    height: 40px;
+    display: block;
+}
+
+
+.about__help-social-social-tg {
+    background-image: url(../img/header/tg.png);
+}
+
+.about__help-social-social-vk {
+    background-image: url(../img/header/vk.png);
+}
+
+.about__help-social-social-tg:hover {
+    background-image: url(../img/header/tg_hover.png);
+}
+
+.about__help-social-social-vk:hover {
+    background-image: url(../img/header/vk_hover.png);
 }

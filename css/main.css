@@ -1,6 +1,7 @@
 @import './header.css';
 @import './promo.css';
 @import './about.css';
+@import './tour.css';
 
 * {
     box-sizing: border-box;
