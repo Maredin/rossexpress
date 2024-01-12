@@ -2,6 +2,7 @@
     max-width: 1504px;
     margin: 0 auto;
     margin-top: 76px;
+    position: relative;
 }
 
 .tour__title,
@@ -39,4 +40,108 @@
 
 .tour__desc-golden {
     color: #F0D683;
+}
+
+.tour__plan {
+    margin-top: 58px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1501px;
+    width: 100%;
+}
+
+.tour__plan-circle {
+    margin-top: -7px;
+}
+
+.tour__plan-zigzag {
+    position: absolute;
+    right: -23px;
+    top: 14px;
+}
+
+.tour__plan-zigzag-right {
+    position: absolute;
+    left: -23px;
+    top: 14px;
+}
+
+.tour__plan-left,
+.tour__plan-right {
+    width: 480px;
+}
+
+.tour__plan-left-title,
+.tour__plan-right-title {
+    display: flex;
+    position: relative;
+}
+
+.tour__plan-left-title-numb,
+.tour__plan-right-title-numb {
+    color: #F0D683;
+    font-family: 'Oranienbaum', serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    margin-right: 31px;
+}
+
+.tour__plan-left-text-bold,
+.tour__plan-right-text-bold {
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    padding-left: 17px;
+    margin-top: 17px;
+}
+
+.tour__plan-left-text,
+.tour__plan-right-text {
+    color: #D9D9D9;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    max-width: 345px;
+    padding-left: 17px;
+    margin-top: 10px;
+    padding-bottom: 70px;
+}
+
+.tour__plan-right-item {
+    text-align: end;
+}
+
+.tour__plan-right-title {
+    justify-content: end;
+}
+
+.tour__plan-right-title-numb {
+    margin-right: 0;
+    margin-left: 31px;
+}
+
+.tour__plan-right-text-bold {
+    padding-right: 17px;
+    padding-left: 0;
+}
+
+.tour__plan-right-text {
+    margin-left: auto;
+    padding-right: 17px;
+    padding-left: 0;
+    max-width: 355px;
+}
+
+.tour__bg {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    z-index: -1;
 }
