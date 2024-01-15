@@ -155,4 +155,47 @@
     position: absolute;
     bottom: -500px;
     right: 15px;
+    height: 100%;
+}
+
+
+@media (max-width: 1920px) {
+    .promo {
+        padding-top: calc((100vw - 320px)/(1920 - 320) * (89 - 65) + 65px);
+    }
+
+    .promo__title h1,
+    .promo__title-gold {
+        font-size: calc((100vw - 320px)/(1920 - 320) * (56 - 17) + 17px);
+    }
+
+    .promo__title h3 {
+        font-size: calc((100vw - 320px)/(1920 - 320) * (30 - 16) + 16px);
+
+    }
+
+    .promo__sofa {
+        bottom: calc((100vw - 600px)/(1920 - 600) * (-500 - (-550)) + (-550px));
+    }
+}
+
+@media (max-width: 579px) {
+    .promo__title-btn-img {
+        display: none;
+    }
+
+    .promo__youtube {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .promo__responsibility {
+        left: 50%;
+        transform: translateX(-50%);
+        top: 500px;
+    }
+
+    .promo__sofa {
+        bottom: calc((100vw - 320px)/(579 - 320) * (-680 - (-700)) + (-700px));
+    }
 }
